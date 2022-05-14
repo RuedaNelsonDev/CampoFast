@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".RegisterProduct"
+    android:gravity="center">
+
+    <ImageView
+        android:id="@+id/ivAddProductos"
+        android:layout_width="wrap_content"
+        android:layout_height="250dp"
+        tools:srcCompat="@tools:sample/backgrounds/scenic" />
+
+    <com.google.android.material.button.MaterialButton
+        android:id="@+id/btnAddImageProduct"
+        style="@style/Widget.Material3.Button.OutlinedButton"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="AGREGAR IMAGEN"
+        android:textSize="20dp"/>
+
+
+    <EditText
+        android:id="@+id/etNameproductAdd"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Nombre del producto" />
+
+    <EditText
+        android:id="@+id/etDescripProductAdd"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Descripción" />
+
+    <EditText
+        android:id="@+id/etPrecioProductAdd"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Precio" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:orientation="horizontal"
+        android:paddingHorizontal="20dp">
+
+        <com.google.android.material.button.MaterialButton
+            android:id="@+id/btnRegisterProduct"
+            style="@style/Widget.Material3.Button.OutlinedButton"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight=".1"
+            android:backgroundTint="@color/azul"
+            android:fontFamily="@font/ubuntu_bold"
+            android:paddingStart="20sp"
+            android:text="Crear cuenta"
+            android:textAllCaps="false"
+            android:textColor="@color/white"
+            android:textSize="16sp"
+            app:cornerRadius="180dp"
+            app:strokeColor="@color/gris" />
+
+        <View
+            android:layout_width="20dp"
+            android:layout_height="match_parent" />
+
+        <com.google.android.material.button.MaterialButton
+            android:id="@+id/btnCancelarProduct"
+            style="@style/Widget.Material3.Button.OutlinedButton"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+
+            android:layout_weight=".1"
+            android:backgroundTint="@null"
+            android:fontFamily="@font/ubuntu_medium"
+            android:text="Cancelar"
+            android:textAllCaps="false"
+            android:textColor="@color/azul"
+            android:textSize="16sp"
+            app:backgroundTint="@color/white"
+            app:cornerRadius="180dp"
+            app:strokeColor="@color/azul" />
+    </LinearLayout>
+</LinearLayout>

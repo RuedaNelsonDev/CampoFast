@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="black">#FF000000</color>
+    <color name="white">#FFFFFFFF</color>
+    <color name="naranja">#FFC107</color>
+    <color name="azul">#3399FF</color>
+    <color name="transparente">#00FFBB03</color>
+    <color name="transparenteAlert">#CBFF9800</color>
+    <color name="gris">#9FBDBCBC</color>
+    <color name="gris_banco">#7A7D7D</color>
+    <color name="rojo">#FC9D9D</color>
+    <color name="colorSuccess">#4BB543</color>
+    <color name="colorWarning">#FFCC00</color>
+    <color name="colorNeutral">#434343</color>
+    <color name="colorError">#CC0000</color>
+    <color name="colorTextPrimary">#212121</color>
+</resources>
